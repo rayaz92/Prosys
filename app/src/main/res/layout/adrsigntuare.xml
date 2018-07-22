@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/cancelsigntuare"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".30"
+            android:text="@string/Cancel" />
+
+        <Button
+            android:id="@+id/clearsigntuare"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".35"
+            android:text="@string/Clear" />
+
+        <Button
+            android:id="@+id/getsignsigntuare"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".35"
+            android:text="@string/Save" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutsigntuare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/ClientManagement"
+        android:title="@string/ClientManagement"/>
+    <item
+        android:id="@+id/Contract"
+        android:title="@string/Contract"/>
+    <item
+        android:id="@+id/Daily_Work"
+        android:title="@string/DailyWork"/>
+    <item
+        android:id="@+id/DeviceID"
+        android:title="@string/DeviceID"/>
+
+</menu>

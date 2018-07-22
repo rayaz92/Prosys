@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mune_Expan_RV"
+        android:orderInCategory="100"
+        android:title="@string/ReceiptVoucher"/>
+    
+    <item
+        android:id="@+id/mune_Expan_Cancel"
+        android:orderInCategory="100"
+        android:title="@string/Cancel"/>
+    
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Showmain_Appointments"
+        android:title="@string/Appointments">
+    </item>
+    <item
+        android:id="@+id/Showmain_Field_Visit"
+        android:title="@string/Field_Visit">
+    </item>
+    <item
+        android:id="@+id/Showmain_Profiles"
+        android:title="@string/Profiles">
+    </item>
+    <item
+        android:id="@+id/Showmain_Reports"
+        android:title="@string/Reports">
+        <menu>
+            <item
+                android:id="@+id/Showmain_Notification_Result"
+                android:title="@string/Notification_Result">
+            </item>
+            <item
+                android:id="@+id/Showmain_Daily_Work"
+                android:title="@string/Daily_Work">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Showmain_Device_ID"
+        android:title="@string/Device_ID">
+    </item>
+    <item
+        android:id="@+id/Showmain_Change_Password"
+        android:title="@string/Change_Password">
+    </item>
+    <!--   <item
+        android:id="@+id/Showmain_Check_For_Update"
+        android:title="@string/Check_For_Update">
+    </item>-->
+    <item
+        android:id="@+id/Showmain_Check_In"
+        android:title="@string/Check_InPOS">
+    </item>
+
+    <item
+        android:id="@+id/Showmain_CheckIn_Clup"
+        android:title="@string/CheckIn_Clup">
+    </item>
+    
+    <item android:id="@+id/Showmain_DistCheckIn" 
+        	android:title="@string/DistCheckIn">
+    </item>
+    
+</menu>

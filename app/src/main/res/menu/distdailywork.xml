@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/DailyWork_Print"
+        android:title="@string/Print"/>
+    <item
+        android:id="@+id/DailyWork_Print_Select_Contract"
+        android:title="@string/Print_Select_Contract"/>
+
+</menu>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android"
+    android:orientation="vertical" >
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/okazlogotrans"
+        android:scaleType="fitCenter"
+        android:layout_weight=".5"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_weight=".25">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/SalesRep"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/ShowMain_TxTSalesRep"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="6">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/llADRAddClient"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:background="@drawable/addclient"
+                    android:scaleType="center"
+                    android:layout_margin="30dp"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.75"
+                    android:text="@string/ClientManagement"
+                    android:layout_marginTop="50dp"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+            </LinearLayout> <!-- Client Manage-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/llADRAddContract"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:background="@drawable/addcontract"
+                android:scaleType="center"
+                android:layout_margin="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"
+                android:text="@string/Contract"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout> <!-- Contract -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/llADRIssueContract"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:background="@drawable/search"
+                android:scaleType="fitCenter"
+                android:layout_margin="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"
+                android:text="@string/ContractSearch"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout> <!-- Search -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/llADRDesignRequest"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:visibility="visible">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:background="@drawable/contractcopy"
+                android:scaleType="center"
+                android:layout_margin="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"
+                android:text="@string/Design"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+
+        </LinearLayout> <!-- Client Manage-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/llADRDailyWork"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:background="@drawable/reports"
+                android:scaleType="center"
+                android:layout_margin="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"
+                android:text="@string/Daily_Work"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout> <!-- Daily Work -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/llADRDeviceID"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:background="@drawable/deviceid"
+                android:scaleType="center"
+                android:layout_margin="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"
+                android:text="@string/DeviceID"
+                android:layout_marginTop="50dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout> <!-- Device ID -->
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <!--</ScrollView>-->
+</RelativeLayout>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Core</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Select_One">اختيار واحد</string>
+    <string name="SalesRep">مندوب المبيعات</string>
+    <string name="AdsType">نوع الاعلان</string>
+    <string name="RefNo">رقم المرجع</string>
+    <string name="Date">تاريخ</string>
+    <string name="ContractCategory">فئة العقد</string>
+    <string name="AdsCategory">فئة الاعلان</string>
+    <string name="Subject">الموضوع</string>
+    <string name="Agency_Acc">الوكالة</string>
+    <string name="ClientName">اسم الزبون</string>
+    <string name="Name">الاسم </string>
+    <string name="Ph_Mobile">الهاتف/الموبايل </string>
+    <string name="Mobile">الموبايل</string>
+    <string name="Cancel">الغاء</string>
+    <string name="Add">إضافة </string>
+    <string name="Clear">مسح </string>
+    <string name="Save">حفظ </string>
+    <string name="UserName">اسم المستخدم </string>
+    <string name="Password">كلمة السر </string>
+    <string name="Login">دخول </string>
+    <string name="ID">الرقم</string>
+    <string name="Price">السعر</string>
+    <string name="ClickHere">اضغط هنا</string>
+    <string name="Total">المجموع:</string>
+    <string name="ClientType">نوع الزبون</string>
+    <string name="Agency">الوكالة</string>
+    <string name="ClientNameEn">الاسم بالانجليزي</string>
+    <string name="ClientNameAr">الاسم بالعربي</string>
+    <string name="Group">المجموعة</string>
+    <string name="Contract">العقد</string>
+    <string name="AccountNo">رقم الحساب</string>
+    <string name="Public">Public</string>
+    <string name="Activity">النشاط</string>
+    <string name="Category">فئة</string>
+    <string name="Telephone">الهاتف</string>
+    <string name="Fax">فاكس :</string>
+    <string name="E_Mail">الايميل</string>
+    <string name="Address">العنوان</string>
+    <string name="Note">الملاحظة</string>
+    <string name="Discount">نسبة الخصم %</string>
+    <string name="PressTax">ضريبة الصحافة %</string>
+    <string name="SalesTax"> ضريبة المبيعات %</string>
+    <string name="Commis">العمولة.%</string>
+    <string name="CrNote">العمولة الاضافية</string>
+    <string name="SubTotal">المجموع</string>
+    <string name="Net">المجموع النهائي</string>
+    <string name="FreeSTax">بدون ضريبة صحافة</string>
+    <string name="FreePTax">بدون ضريبة مبيعات</string>
+    <string name="Offer">العرض</string>
+    <string name="Show">مشاهدة</string>
+    <string name="Cm">سم</string>
+    <string name="Col">عمود</string>
+    <string name="PageType">نوع الصفحة</string>
+    <string name="PageName">اسم الصفحة</string>
+    <string name="PagePrice">سعر الصفحة</string>
+    <string name="PageNo">رقم الصفحة</string>
+    <string name="Qty">الكمية</string>
+    <string name="FreeQty"> الكمية المجانية</string>
+    <string name="Word">كلمات</string>
+    <string name="Freq">فترة</string>
+    <string name="FirstIssDate">تاريخ اول نشرة</string>
+    <string name="FirstIssID">رقم النشرة</string>
+    <string name="TotalPrice">مجموع السعر</string>
+    <string name="SCm">SCm</string>
+    <string name="SCol">SCol</string>
+    <string name="Done">تم</string>
+    <!-- option mune -->
+    <string name="ClientManagement">العملاء</string>
+    <string name="DailyWork">التقرير اليومي</string>
+    <string name="DeviceID">رقم الجهاز</string>
+    <string name="New">جديد</string>
+    <string name="Revent">تراجع</string>
+    <string name="Signtuare">توقيع</string>
+
+    <!-- Coding -->
+    <string name="SelectAgency">اختيار وكالة</string>
+    <string name="Selectsector">اختيار القطاع</string>
+    <string name="ThisDateIsClosed">هذا التاريخ مغلق</string>
+    <string name="ThisDateIsNotValied">التاريخ غير صحيح</string>
+    <string name="YouHaveErrorInDate">يوجد خطا في البيانات</string>
+    <string name="NoInternet">لا يوجد انتصال بالشبكة</string>
+    <string name="YouHaveaProblemPleaseCheckContractInfo">الرجاء التاكد من معلومات العقد</string>
+    <string name="PleaseSelectAdsType">الرجاء اختيار نوع الاعلان</string>
+    <string name="PleaseSelectAds_Category">الرجاء اختيار فئة الاعلان</string>
+    <string name="PleaseSelectContractCategory">الرجاء اختيار فئة العقد</string>
+    <string name="PleaseSelectClient">الرجاء تحديد زبون</string>
+    <string name="Wait">تحميل..</string>
+    <string name="InValidUserNameOrPassword">اسم المستخدم او كلمة المرور غير صحيحة</string>
+    <string name="PrintDailyWork">طباعة التقرير اليومي</string>
+    <string name="PrintSelectedContract">طباعة التقرير المحدد</string>
+    <string name="Please_Enter_Name_Ar">الرجاء ادخال الاسم بالعربي</string>
+    <string name="EnabletoConnected">غير قادر على الاتصال</string>
+    <string name="Enter_Name">ادخل الاسم</string>
+    <string name="PleaseEnterMobile">الرجاء ادخال رقم الجوال</string>
+    <string name="EnterMobile">ادخل الرقم</string>
+    <string name="ClientAlreadyExists">هذا الزبون موجود</string>
+    <string name="InsertDone">تمت عملة الاذافة</string>
+    <string name="ErrorInInsert">يوجد خطا في عملة الاضافة</string>
+    <string name="ErrorInData">خطا في البيانات</string>
+    <string name="Please_Enter_Page_Name">الرجاء ادخال اسم الصفحة</string>
+    <string name="PleaseEnterCm">الرجاء ادخال سم</string>
+    <string name="PleaseEnterCol">Please Enter Col</string>
+    <string name="QtyIsNotValid">الكمية غير صحيحة</string>
+    <string name="PleaseEnterQty">الرجاء ادخال الكمية</string>
+    <string name="PleaseEnterDiscount">الرجاء ادخال قيمة الخصم</string>
+    <string name="AreYouSure">هل انت متاكد ؟</string>
+    <string name="SaveContract">حفظ العقد</string>
+    <string name="Yes">نعم</string>
+    <string name="No">لا</string>
+    <string name="SavedSuccessfully">تمت عملية الحفظ</string>
+    <string name="ErrorInSaveContract">خطا في عملية الحفظ</string>
+    <string name="SaveInContractDetails">حفظ تفاصيل العقد</string>
+
+    <!-- exlist -->
+    <string name="ContractID">الرقم :</string>
+    <string name="ContractNo">رقم العقد</string>
+    <string name="ContractType">نوع العقد:</string>
+    <string name="ContractDate">تاريخ العقد:</string>
+    <string name="NetAmount">القيمة:</string>
+    <string name="Calculate">احتساب</string>
+
+
+    <string name="Search">بحث</string>
+    <string name="LogIn">دخول</string>
+    <string name="CollectorName">اسم المحصل</string>
+    <string name="EmptyText">EmptyText</string>
+    <string name="accountNo">رقم الحساب</string>
+    <string name="accountName">اسم الحساب</string>
+    <string name="ChequeNo">رقم الشك</string>
+    <string name="DueDate">تاريخ التحصيل</string>
+    <string name="Bank">البنك</string>
+    <string name="VoucherNo">رقم الفاتورة</string>
+    <string name="TotalAmount">مجموع المبلغ</string>
+    <string name="Check">تحديد</string>
+    <string name="CheuqeAmount">قيمة الشيك</string>
+    <string name="SelectOne">اختيار واحد</string>
+    <string name="All">ِالكل</string>
+    <string name="Loading">ِتحميل</string>
+    <string name="Delete">حذف</string>
+    <string name="PrintDaliyWork">ِطباعة التقرير اليومي</string>
+    <string name="PrintCoustmFiled">طباعة التقرير المحدد</string>
+    <string name="PleaseEnterDate">الرجاء ادخال التاريخ</string>
+    <string name="NoDataForPrinting">لا يوجد بيانات للطباعة</string>
+    <string name="NoData">لا يوجد بيانات </string>
+    <string name="Pleasewait">الرجاء الانتظار</string>
+    <string name="PrintingData">طباعة البيانات</string>
+    <string name="Enabletoconnected">غير قادر ع الاتصال</string>
+    <string name="ReceiptVoucher">استلام القسيمة</string>
+    <string name="InValidDate">خطاء في التاريخ</string>
+    <string name="PleaseComChequeInfo">الرجاء اكمال المعلومات</string>
+    <string name="ChequeAmountIsNotValid">قيمة الشيك غير صحيحة</string>
+    <string name="DoneInsert">تمت عملية الاضافة</string>
+    <string name="PleaseInsertTotalAmount">الرجاء ادخال مجموع المبلغ</string>
+    <string name="ThisAmountIsNotValid">المجموع غير صحيح</string>
+    <string name="TotalAmountDoesntEqualRequiredValue">القيمة النهائية لا تساوي القيمة المطلوبة</string>
+    <string name="PleaseInsertAmount">الرجاء ادخال القيمة</string>
+    <string name="Desc">وصف</string>
+    <string name="RestAmount">بقية المكونات</string>
+    <string name="RestStatues">اعادة الحالة</string>
+    <string name="ty">النوع</string>
+    <string name="Ser">تسلسل</string>
+    <string name="DR">DR</string>
+    <!-- Code -->
+    <string name="accn_no">رقم الحساب</string>
+    <string name="Balance">القيمة </string>
+
+    <string name="NoDate">لا يوجد بيانات</string>
+    <string name="PleaseSelectOne">الرجاء الاختيار من القائمة</string>
+    <string name="BluetoothNotAvailable">خاصية البلوتوث غير متاحة</string>
+    <string name="ClientNameIs">اسم العميل</string>
+    <string name="BalanceIs">القيمة</string>
+    <string name="pleasecheckUserNameAndPassword">الرجاء التاكد من اسم المستخدم و الرقم السري!!!</string>
+    <string name="PleaseSelectPayTerms">الرجاء اختيار طريقة الدفع</string>
+    <string name="ErrorInGetPayTerms">خطأ في تحديد طريقة الدفع</string>
+    <string name="SelectPrinter">اختر الطابعة</string>
+    <string name="P2inches">طابعة 2 انش</string>
+    <string name="P3inches">طابعة 3 انش</string>
+    <string name="SelectLanguage">اختر اللغة</string>
+    <string name= "AgentName">العميل</string>
+    <string name="button_scan">بحث</string>
+
+
+    <string name="Longitude">خط الطول</string>
+    <string name="Latitude">خط العرض</string>
+    <string name="SubscType">نوع الاشتراك</string>
+    <string name="Check_InPOS">ارسال الاحداثيات لنقطة البيع</string>
+    <string name="CheckIn_Clup">نادي مشتركي الغد</string>
+    <string name="paymentType">نوع الدفع</string>
+    <string name="ChequNo">رقم الشك</string>
+    <string name="Street">الشارع</string>
+    <string name="Country">البلد</string>
+    <string name="City">المدينة</string>
+    <string name="Area">منطقة</string>
+    <string name="SubscriberName">اسم المشترك</string>
+    <string name="ThisPOSNamealreadyexist">اسم نقطة البيع موجودة من قبل</string>
+    <string name="Reference">مرجع</string>
+    <string name="PosName">اسم نقطة البيع</string>
+    <string name="ChngName">تغير الاسم</string>
+    <string name="ChngCompany">تغير شركة</string>
+    <string name="ChngPhone">تغير هاتف</string>
+    <string name="ChngEamil">تغير ايميل</string>
+    <string name="ChngNationalNO">تغير رقم وطني</string>
+    <string name="ChngMobile">تغير جوال</string>
+    <string name="ChngNote">تغير ملاحظه</string>
+    <string name="ChngClassification">تغير تصنيف</string>
+    <string name="Chngoffer">تغير العروض</string>
+    <string name="fillinfo">اكمال معلومات</string>
+    <string name="chngclear">مسح</string>
+    <string name="BuildingNo">رقم البناية</string>
+    <string name="AppointmentTypeName">نوع الموعد</string>
+    <string name="Notification">إشعار</string>
+    <string name="PleaseCheckofDate">الارجاء التاكد من التاريخ</string>
+    <string name="CopiesNo">عدد النسخ</string>
+    <string name="NumberCopies">عدد النسخ</string>
+    <string name="StartDate">تاريخ البداية</string>
+    <string name="EndDate">تاريخ الانتهاء</string>
+    <string name="IncludeOffers">مع عرض</string>
+    <string name="PassWord">كلمة المرور</string>
+    <string name="GetData">جلب البيانات</string>
+    <string name="SetResult">مجموع النتائج</string>
+    <string name="DriverName">اسم المندوب</string>
+    <string name="Location">الموقع</string>
+
+    <string name="OldPassword">كلمة المرور القديمة</string>
+    <string name="NewPassword">كلمة المرور الجديدة</string>
+    <string name="ConfirmPassword">التاكد من كلمة المرور</string>
+    <string name="Count">العدد</string>
+    <string name="Renew">تجديد</string>
+    <string name="ResultType">نوع النتيجه</string>
+    <string name="Reason">السبب</string>
+    <string name="PleaseChooseAnotherTypeContract">الرجاء اختيار نوع عقد اخر</string>
+    <string name="InValidNetAmount">خطاء في القيمة الاجمالية</string>
+    <!-- mahmoud -->
+
+    <string name="Comp_Name">اسم الشركة</string>
+    <string name="National_Number">الرقم الوطني</string>
+    <string name="Phone">الهاتف</string>
+    <string name="Email">البريد الالكتروني</string>
+    <string name="Classification">التصنيف</string>
+    <string name="Edit">تعديل</string>
+    <string name="Revert">تراجع</string>
+    <string name="View_Contract">مشاهدة العقد</string>
+    <!-- menu -->
+    <string name="Appointments">المواعيد</string>
+    <string name="Field_Visit">زياره ميدانيه</string>
+    <string name="Profiles">الملف الشخصي</string>
+    <string name="Reports">التقارير</string>
+    <string name="Notification_Result">نتيجة الاشعارات</string>
+    <string name="Daily_Work">التقرير اليومي</string>
+    <string name="Device_ID">رقم الجهاز</string>
+    <string name="Change_Password">تغير كلمة المرور</string>
+    <string name="Check_For_Update">تحديث البرنامج</string>
+    <string name="Check_In">ارسال الاحداثيات</string>
+    <string name="ReSetStartDate">اعادة تاريخ البداية</string>
+
+    <!-- code -->
+    <string name="Error">يوجد خطا</string>
+    <string name="Enable_To_Connected">غير قادر على الاتصال</string>
+    <string name="Please_Wait">الرجاء الانتظار</string>
+    <string name="Save_Contract">حفظ العقد</string>
+    <string name="Save_Done">تمت عملية الحفظ</string>
+    <string name="Printing_Contract">طباعة العقد</string>
+    <string name="YouHaveProblem">يوجد خطا تاكد من البيانات</string>
+    <string name="Copies_No_Is_Not_Valid">عدد النسخ غير صحيح</string>
+    <string name="Details">التفاصيل</string>
+    <string name="Contracts">العقود</string>
+    <string name="Enter_Name_Or_Ph_Mobiel">الرجاء ادخال رقم الهاتف او الجوال</string>
+    <string name="Please_Select_Client">الرجاء تحديد زبون</string>
+    <string name="EnterName">ادخل الاسم</string>
+    <string name="EnterNumber">ادخل الرقم</string>
+    <string name="NewContract">عقد جديد</string>
+    <string name="NoDataForClassification">لا يوجد بيانات للتصنيف</string>
+    <string name="Invalid_UserName_Password_Or_CheckGPS">خطا في اسم المستخدم او كلمة المرور تاكد من خدمة تحديد الموقع</string>
+    <string name="Check_GPS_Or_Internet">تاكد من الاتصال بالشبكة</string>
+    <string name="FromDate">من تاريخ</string>
+    <string name="ToDate">الا تاريخ</string>
+    <string name="Grace">فترة السماح</string>
+    <string name="Time">الوقت</string>
+    <string name="CallID">Call ID</string>
+    <string name="ClientID">رقم المشترك</string>
+    <string name="ClientPhone">هاتف المشترك</string>
+    <string name="ClientMobile">جوال المشترك</string>
+    <string name="Print">طباعة</string>
+    <string name="Print_Select_Contract">طباعة العقد المحدد</string>
+    <string name="Bluetooth_has_opened">البلوتوث مفتوح</string>
+    <string name="Bluetooth_has_Closed">البلوتوث مغلق</string>
+    <string name="Password_Not_Confirmation">غير متطابق</string>
+    <string name="Enter_Old_And_New_Pass">ادخل كلمة المرور الجديدة والقديمة</string>
+    <string name="Done_Up_date">تمت عملية التعديل</string>
+    <string name="Unable_To_Update">غير قادر على اكمال العملية</string>
+    <string name="SpecialOffer">عرض خاص</string>
+    <string name = "BoxLocation">موقع الصندوق</string>
+    <string name ="CopiesNumberMustbe1orMore">عدد النسخ يجب ان يكون 1 او اكثر</string>
+    <string name= "DevicedoesnotsupportBluetooth">الجهاز لا يدعم خاصية البلوتوث</string>
+    <string name= "Bluetoothisnotenable">خاصية البلوتوث غير مفعلة</string>
+    <string name = "BoxLocationSavedDone">تم حفظ موقع الصندوق</string>
+    <string name= "PleaseReLogIn">الرجاء تسجيل الدخول مرة اخرى</string>
+    <string name = "PosorNoteorAreaIsEmpty">الرجاء ادخال جميع المعلومات</string>
+    <string name= "PleaseEnterMinimum3characters">الرجاء البحث عن 3 احرف و اكثر</string>
+    <string name= "PleaseContactSupport">الرجاء التواصل مع الدعم</string>
+
+
+    <string name="Changename">تغيير الاسم</string>
+    <string name="ChngeCompany">تغيير الشركة</string>
+    <string name="ChngePhone">تغيير الرقم</string>
+    <string name="ChngeEmail">البريد الالكتروني</string>
+    <string name="ChangeNationalNo">تغيير الرقم الوطني</string>
+    <string name="ChangeMobile">تغيير الهاتف النقال</string>
+    <string name="ChangeNote">تغيير الملحظات</string>
+    <string name="ChangeClassification">تغيير التصنيف</string>
+    <string name="ChangeOffer">تغيير العرض</string>
+    <string name="FillInfo">ملئ المعلومات</string>
+    <string name="DistCheckIn">مواقع التوزيع</string>
+    <string name="Supervisor">المسؤول</string>
+    <string name="Distributor">الموزع</string>
+
+    <string name="GetLocation">حفظ الموقع</string>
+    <string name="UpdateLocation">تعديل الموقع</string>
+    <string name="ADR">الاعلانات</string>
+    <string name="Collector">التحصيل</string>
+    <string name="Distribution">التوزيع</string>
+      <string name="Printing_receipt_voucher">Printing_receipt_voucher</string>
+    <string name="RememberMe">تذكرني</string>
+    <string name="RememberPassword">تذكر الرقم السري</string>
+    <string name="none_found">none_found</string>
+    <string name="none_paired">none_paired</string>
+    <string name="scanning">scanning</string>
+    <string name="select_device">select_device</string>
+    <string name="tvSerNo">tvSerNo</string>
+    <string name="Publication">المطبوعة</string>
+    <string name="NoPrinterFound">لا يوجد طابعة</string>
+
+    <string name="Issue">العدد</string>
+    <string name="PartType">الجزء</string>
+    <string name="Size">الحجم</string>
+    <string name="Approve">الموافقة</string>
+    <string name="Design">التصميم</string>
+    <string name="Status">حالة العقد</string>
+    <string name="SelectToUpdate">تعديل</string>
+    <string name="NotAllowed">غير مسموح</string>
+    <string name="AdsText">نص الاعلان</string>
+    <string name="Request">طلب</string>
+
+    <string name="Pay">سند مقدم</string>
+    <string name="ContractSearch">العقود المدورة</string>
+    <string name="View">عرض</string>
+    <string name="OldaccountNo">رقم الحساب القديم</string>
+
+    <string name="PleaseRequestDesignForThisUser">الرجاء طلب تصميم لهذا العميل</string>
+    <string name="PleaseInstallUpdate">يرجى تحديث البرنامج</string>
+
+    <string name="PaginationUrl">https://prosys.alyaum.com:33/Advertisements/</string>
+    <string name="DruftClientUrl">https://prosys.alyaum.com:33/Advertisements/DammamMobawbeh/Druft/Client/</string>
+    <string name="ApplicationUpdateUrl">https://drive.google.com/folderview?id=0B8jRjkLzCJ4PaVlPemxJeUROTnc</string>
+
+    <string name="DesignID">قم التصميم</string>
+    <string name="DesignStatus">حالة التصميم</string>
+    <string name="SalesApprove">اعتماد المندوب</string>
+    <string name="FinalDesign">التصميم النهائي</string>
+
+    <string name="ColorType">نوع الالوان</string>
+    <string name="EditDesignID">تعديل رقم التصميم</string>
+    <string name="EditDesignPage">صفحة تعديل التصميم</string>
+    <string name="CancelDesign">إلغاء تصميم رقم :</string>
+
+
+    <string name="IssueCount">عدد النشرات</string>
+    <string name="IssuePublishedCount">نشرت</string>
+    <string name="IssueNotPublishedCount">لم تنشر بعد</string>
+
+
+    <string name="CountOk">مجموع نشرت</string>
+    <string name="CountOnHold">مجموع موقف</string>
+    <string name="CountNp">مجموع لم ينشر بعد</string>
+
+    <string name="DesignSizeDoesntMatchAdsSize">حجم التصميم لا يطابق حجم الاعلان</string>
+    <string name="NoCredit">لا يوجد رصيد</string>
+
+</resources>

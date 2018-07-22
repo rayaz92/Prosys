@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tvDateFieldVisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="@string/Date"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/TxTFieldVisitDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+        
+            android:hint="@string/ClickHere"
+            android:inputType="datetime" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/btnFiledVisitGetData"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/GetData" />
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/ExpandableListViewFiledVisit"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_weight="0.26" >
+
+    </ExpandableListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/BtnfieldvisitSetResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/SetResult" />
+    </LinearLayout>
+
+</LinearLayout>
